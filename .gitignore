@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/CoordinateMap/.idea/.idea.CoordinateMap/.idea
+/CoordinateMap/.vs/CoordinateMap
+/CoordinateMap/CoordinateMap/bin/Debug/netstandard2.0
+/CoordinateMap/CoordinateMap/obj
