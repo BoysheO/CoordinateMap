@@ -1,7 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
+	<PropertyGroup>
+		<Version>1.0.1</Version>
+	</PropertyGroup>
+	<PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright></Copyright>
+    <Authors>BoysheO</Authors>
+    <Description>有限域的稠密图
+这个数据结构描述了一个绘制在世界坐标系中的2D地图，并且地图本地也定义了一个本地坐标系。
+本数据结构主要处理世界坐标、本地坐标、他地坐标的互相转换和处理地图内包含大量元素的地图数据
+如无特殊说明，坐标是本地坐标
+线程安全：否</Description>
+    <PackageProjectUrl>https://github.com/BoysheO/CoordinateMap/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BoysheO/CoordinateMap/</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

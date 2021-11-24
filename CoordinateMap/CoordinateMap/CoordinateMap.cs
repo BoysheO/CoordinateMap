@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Buffers;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace com.susi.toolkit
+namespace com.boysheo.toolkit
 {
     /// <summary>
     /// 有限域的稠密图
