@@ -22,7 +22,7 @@ jobs:
         include-prerelease: true
     # 3.build
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build .\CoordinateMap\CoordinateMap.sln --configuration Release
     # 4.Install Nuget
     - name: Install Nuget
       run: |
@@ -32,4 +32,4 @@ jobs:
     # 5. Push  package
     - name: Push generated package to GitHub registry
       run: |
-        .\nuget push .\TimeoutTimer\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NugetKey }} -NoSymbols
+        .\nuget push .\CoordinateMap\CoordinateMap\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NugetKey }} -NoSymbols
