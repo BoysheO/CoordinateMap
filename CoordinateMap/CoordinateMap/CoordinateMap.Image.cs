@@ -14,6 +14,6 @@ namespace com.boysheo.toolkit
         /// <summary>
         /// 输出1D布局数组
         /// </summary>
-        public Span<T> AsSpan => Data.AsSpan();
+        public Span<T> Span => Data.AsSpan();
     }
 }
