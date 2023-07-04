@@ -3,7 +3,7 @@
 |--|--|
 |![](https://github.com/BoysheO/CoordinateMap/workflows/nuget/badge.svg)|[![](https://img.shields.io/nuget/v/CoordinateMap.svg)](https://www.nuget.org/packages/CoordinateMap)|
 
-有限域的稠密图
+有限范围的稠密二维数组
 
 这个数据结构描述了一个绘制在绝对坐标系中的2D地图，并且地图本地也定义了一个本地坐标系。
 
